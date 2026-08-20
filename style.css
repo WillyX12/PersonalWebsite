@@ -1,5 +1,5 @@
 img {
-    width: 500px;
+    width: 400px;
 }
 
 body {
@@ -8,4 +8,19 @@ body {
     background:darkslateblue;
     color: azure;
 
+}
+
+.my-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white; 
+  text-decoration: none; 
+  border-radius: 5px; 
+  font-weight: bold;
+}
+
+
+.my-button:hover {
+  background-color: #0056b3; 
 }
