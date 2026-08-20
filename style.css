@@ -4,10 +4,11 @@ img {
 
 body {
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background:darkslateblue;
+     background:darkslateblue;
     color: azure;
 
+    font-family: 'Times New Roman', Times, serif;
+   
 }
 
 p{
@@ -26,5 +27,5 @@ p{
 
 
 .my-button:hover {
-  background-color: #0056b3; 
+  background-color: #00ff59; 
 }
