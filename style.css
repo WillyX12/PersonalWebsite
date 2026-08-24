@@ -32,6 +32,12 @@ ul {
   font-weight: bold;
 }
 
+.navbar {
+  display: flex;
+  gap: 15px;
+  background-color: #333;
+  padding: 10px;
+}
 
 .my-button:hover {
   background-color: #00ff59; 
