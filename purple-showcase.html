@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple Showcase</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        .purple-page {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+        }
+
+        .purple-page h1 {
+            font-size: 3.5em;
+            margin: 0 0 30px 0;
+            background: linear-gradient(120deg, #ffffff, #e0d5ff, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: none;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .purple-page p {
+            font-size: 1.3em;
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 40px;
+            text-align: center;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .purple-page ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .purple-page li {
+            padding: 15px 20px;
+            margin: 12px 0;
+            background: linear-gradient(90deg, rgba(245, 0, 87, 0.3), rgba(156, 39, 176, 0.3));
+            border-left: 4px solid #ff1493;
+            border-radius: 8px;
+            color: white;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .purple-page li:before {
+            content: "✨";
+            font-size: 1.3em;
+        }
+
+        .purple-page li:hover {
+            background: linear-gradient(90deg, rgba(245, 0, 87, 0.5), rgba(156, 39, 176, 0.5));
+            transform: translateX(10px);
+            box-shadow: 0 5px 20px rgba(255, 20, 147, 0.4);
+        }
+
+        .gradient-divider {
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #ff1493, #764ba2, #667eea);
+            border-radius: 2px;
+            margin: 20px 0;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .back-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="purple-page">
+        <a href="index.html" class="back-button">← Back Home</a>
+        
+        <h1>✨ Purple Dreams ✨</h1>
+        <p>Experience a beautiful gradient world with stunning visual effects</p>
+        
+        <div class="gradient-divider"></div>
+
+        <div class="glass-card">
+            <h2 style="color: rgba(255, 255, 255, 0.95); margin-top: 0;">My Awesome List</h2>
+            <ul>
+                <li>Epic gradient backgrounds</li>
+                <li>Smooth hover animations</li>
+                <li>Glass morphism effects</li>
+                <li>Beautiful color transitions</li>
+                <li>Responsive design</li>
+                <li>Modern web aesthetics</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
